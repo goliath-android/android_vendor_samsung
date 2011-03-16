@@ -1,0 +1,11 @@
+# system.prop for SPH-M900
+# This overrides settings in the products/generic/system.prop file
+#
+
+rild.libpath=/system/lib/libsec-ril.so
+rild.libargs=-d /dev/ttyS0
+
+keyguard.no_require_sim=true
+
+ro.media.dec.aud.wma.enabled=1
+ro.media.dec.vid.mwv.enabled=1
